@@ -9,6 +9,8 @@
 
   <tbody>
     <% @news_updates.each do |news_update| %>
+    <%= news_update.title %> <br/>
+    <%= news_update.content %> <br/>
       <tr>
         <td><%= link_to 'Show', news_update %></td>
         <td><%= link_to 'Edit', edit_news_update_path(news_update) %></td>
