@@ -10,6 +10,7 @@ class NewsUpdatesController < ApplicationController
   # GET /news_updates/1
   # GET /news_updates/1.json
   def show
+    @news_update = NewsUpdate.find(params[:id])
   end
 
   # GET /news_updates/new
