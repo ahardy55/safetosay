@@ -45,6 +45,7 @@ ActiveRecord::Schema.define(version: 20141111200733) do
     t.string   "support"
     t.string   "address"
     t.string   "price"
+    t.string   "url"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
