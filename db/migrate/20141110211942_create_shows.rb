@@ -6,7 +6,7 @@ class CreateShows < ActiveRecord::Migration
       t.string :support
       t.string :address
       t.string :price
-      t.string :venue_url
+      t.string :url
 
       t.timestamps
     end

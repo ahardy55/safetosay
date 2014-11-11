@@ -10,6 +10,7 @@ class AboutsController < ApplicationController
   # GET /abouts/1
   # GET /abouts/1.json
   def show
+    @about = About.find(params[:id])
   end
 
   # GET /abouts/new
