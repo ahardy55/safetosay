@@ -1,7 +1,7 @@
 
 <%= form_for(@news_update) do |f| %>
   Title<%= f.text_field :title %>
-  Content<%= f.text_field :content %>
+  Content<%= f.text_area(:content, cols: 40, rows: 15)  %>
   <% if @news_update.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@news_update.errors.count, "error") %> prohibited this news_update from being saved:</h2>

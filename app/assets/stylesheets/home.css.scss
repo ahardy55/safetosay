@@ -1,0 +1,46 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$medium-font: 20px;
+$small-font: 14px;
+
+#newsUpdates {
+  height: 570px;
+  width: 550px;
+  float: left;
+  border: 1px solid black;
+  padding: 25px;
+
+  .singleUpdate {
+    border-bottom: 1px dotted black;
+  }
+
+  .date {
+    font-size: $medium-font;
+  }
+
+  .title {
+    font-size: $medium-font;
+  }
+
+  .content {
+    font-size: $small-font;
+  }
+
+}
+
+#bannerPhoto {
+  width: 466px;
+  height: 110px;
+  border: 1px solid black;
+  float: left;
+  margin-bottom: 10px;
+}
+
+#bannerLogo {
+  height: 116px;
+  width: 475px;
+  margin-left: -5px;
+  margin-top: -3px;
+}

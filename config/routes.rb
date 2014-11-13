@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'home/index'
+
   resources :contacts
 
   resources :shows
@@ -6,6 +8,8 @@ Rails.application.routes.draw do
   resources :abouts
 
   resources :news_updates
+
+  resources :home
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
