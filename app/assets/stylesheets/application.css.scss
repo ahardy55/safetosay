@@ -25,7 +25,7 @@
 #contentBox {
   margin: auto;
   border: 1px solid black;
-  height: 1100px;
+  height: 850px;
   width: 1070px;
 }
 
@@ -50,6 +50,10 @@ footer {
   border: 1px solid black;
   height: 75px;
   width: 1150px;
-  margin-top: 35px;
+  margin-top: 13px;
   margin-left: -35px;
+
+  .footerIcon {
+    height: 10px;
+  }
 }
