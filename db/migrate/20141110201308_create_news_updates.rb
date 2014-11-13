@@ -2,7 +2,7 @@ class CreateNewsUpdates < ActiveRecord::Migration
   def change
     create_table :news_updates do |t|
 
-      t.string :content
+      t.text :content, :limit => nil
       t.string :title
 
       t.timestamps
