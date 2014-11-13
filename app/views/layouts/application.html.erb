@@ -14,19 +14,23 @@
 
   <div id="contentBox">
     <nav>
-      <table>
-        <tr><%= image_tag("news.png",    :class => "navLink") %></tr>
-        <tr><%= image_tag("shows.png",   :class => "navLink") %></tr>
-        <tr><%= image_tag("music.png",   :class => "navLink") %></tr>
-        <tr><%= image_tag("photos.png",  :class => "navLink") %></tr>
-        <tr><%= image_tag("contact.png", :class => "navLink") %></tr>
-      </table>
+      <%= image_tag("news.png",    :class => "navLink") %>
+      <%= image_tag("shows.png",   :class => "navLink") %>
+      <%= image_tag("music.png",   :class => "navLink") %>
+      <%= image_tag("photos.png",  :class => "navLink") %>
+      <%= image_tag("contact.png", :class => "navLink") %>
     </nav>
   
-
+  <div id="pageContent">
     <%= yield %>
+  </div>
+
+    <footer>
+    </footer>
 
   </div>
+
+
 
 </body>
 </html>
