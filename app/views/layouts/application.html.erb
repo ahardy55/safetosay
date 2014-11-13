@@ -8,12 +8,19 @@
 </head>
 <body>
   
-  <div id="main_logo">
+  <div id="mainLogo">
     <%= image_tag("main_logo.png") %>
   </div>
 
-  <div id="content_box">
+  <div id="contentBox">
     <nav>
+      <table>
+        <tr><%= image_tag("news.png",    :class => "navLink") %></tr>
+        <tr><%= image_tag("shows.png",   :class => "navLink") %></tr>
+        <tr><%= image_tag("music.png",   :class => "navLink") %></tr>
+        <tr><%= image_tag("photos.png",  :class => "navLink") %></tr>
+        <tr><%= image_tag("contact.png", :class => "navLink") %></tr>
+      </table>
     </nav>
   
 
