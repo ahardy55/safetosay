@@ -7,9 +7,19 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <%= image_tag("main_logo.png") %>
+  
+  <div id="main_logo">
+    <%= image_tag("main_logo.png") %>
+  </div>
 
-<%= yield %>
+  <div id="content_box">
+    <nav>
+    </nav>
+  
+
+    <%= yield %>
+
+  </div>
 
 </body>
 </html>
