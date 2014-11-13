@@ -1,5 +1,11 @@
 <div id="newsUpdates">
-  NEWS IS HERE
+  <% @news_updates.each do |update| %>
+    <div class="singleUpdate">
+      <span class="date"><%= update.date %></span> <br/><br/>
+      <span class="title"><%= update.title %></span><br/><br/>
+      <span class="content"><%= update.content %></span> <br/><br/>
+    </div><br/>
+  <% end %>
 </div>
 
 <div id="bannerPhoto">

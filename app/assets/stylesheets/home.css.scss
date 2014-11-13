@@ -2,11 +2,32 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$medium-font: 20px;
+$small-font: 14px;
+
 #newsUpdates {
   height: 650px;
-  width: 600px;
+  width: 550px;
   float: left;
   border: 1px solid black;
+  padding: 25px;
+
+  .singleUpdate {
+    border-bottom: 1px dotted black;
+  }
+
+  .date {
+    font-size: $medium-font;
+  }
+
+  .title {
+    font-size: $medium-font;
+  }
+
+  .content {
+    font-size: $small-font;
+  }
+
 }
 
 #bannerPhoto {
