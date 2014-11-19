@@ -35,11 +35,17 @@ nav {
   border: 1px solid black;
   width: 1150px;
   height: 78px;
+  background-image: url("nav_background.png");
+  text-align: center;
+  letter-spacing: 2.3em;
 }
 
 .navLink {
+  height: 60px;
+}
+
+.navLink-photos {
   height: 75px;
-  margin-left: 39px;
 }
 
 #pageContent {
