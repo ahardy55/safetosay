@@ -14,17 +14,24 @@
  *= require_self
  */
 
+
+body { 
+  background: url(mainbackground.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #mainLogo {
   margin-left: 75px;
   margin-bottom: -12px;
-  border: 1px solid black;
   height: 172px;
   width: 300px;
 }
 
 #contentBox {
   margin: auto;
-  border: 1px solid black;
   height: 850px;
   width: 1070px;
 }
@@ -32,10 +39,8 @@
 nav {
   margin-top: 35px;
   margin-left: -35px;
-  border: 1px solid black;
   width: 1150px;
   height: 78px;
-  background-image: url("nav_background.png");
   text-align: center;
   letter-spacing: 2.3em;
 }
@@ -53,7 +58,6 @@ nav {
 }
 
 footer {
-  border: 1px solid black;
   height: 75px;
   width: 1150px;
   margin-top: 13px;
