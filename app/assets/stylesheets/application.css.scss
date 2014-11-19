@@ -52,8 +52,20 @@ footer {
   width: 1150px;
   margin-top: 13px;
   margin-left: -35px;
+  padding-top: 10px;
+
+  .footerLeft {
+    float: left;
+    padding-left: 45px;
+  }
+
+  .footerRight {
+    float: right;
+    padding-right: 65px;
+  }
 
   .footerIcon {
-    height: 10px;
+    height: 57px;
   }
+
 }
