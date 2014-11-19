@@ -31,17 +31,34 @@ $small-font: 14px;
 
 }
 
-#bannerPhoto {
+#nextShow {
+  margin-top: 25px;
   width: 466px;
-  height: 110px;
-  border: 1px solid black;
+  height: 150px;
+  color: white;
   float: left;
-  margin-bottom: 10px;
+  letter-spacing: 3px;
+
+
+  #upcomingShow {
+    font-size: 25px;
+    color: white;
+    margin: auto;
+    margin-left: 35px;
+    text-decoration: bold;
+  }
+
+  #showDetails {
+    margin-left: 35px;
+    font-size: 18px;
+  }
+
+  #directions {
+    font-size: 10px;
+  }
 }
 
-#bannerLogo {
-  height: 116px;
-  width: 475px;
-  margin-left: -5px;
-  margin-top: -3px;
+#reverbNation {
+  margin-left: 35px;
+  margin-top: 25px;
 }
