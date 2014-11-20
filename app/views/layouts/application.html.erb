@@ -17,17 +17,27 @@
       <%= image_tag("news.png",    :class => "navLink") %>
       <%= image_tag("shows.png",   :class => "navLink") %>
       <%= image_tag("music.png",   :class => "navLink") %>
-      <%= image_tag("photos.png",  :class => "navLink") %>
+      <%= image_tag("photos.png",  :class => "navLink-photos") %>
       <%= image_tag("contact.png", :class => "navLink") %>
     </nav>
   
-  <div id="pageContent">
-    <%= yield %>
-  </div>
+    <div id="pageContent">
+
+      <%= yield %>
+
+    </div>
 
     <footer>
+      <div id="footerLeft">
+      
+      <%= image_tag("facebookicon.png", :class => "footerIcon") %>
+      <%= image_tag("reverbnationicon.png", :class => "footerIcon") %>
+      </div>
+      
+      <div id="footerRight">
+      <%= image_tag("githubicon.png", :class => "footerIcon") %>
+    </div>
     </footer>
-
   </div>
 
 
