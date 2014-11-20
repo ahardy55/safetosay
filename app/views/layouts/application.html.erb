@@ -21,10 +21,23 @@
       <%= image_tag("contact.png", :class => "navLink") %>
     </nav>
   
-  <div id="pageContent">
+    <div id="pageContent">
 
-    <%= yield %>
-  </div>
+      <%= yield %>
+
+    </div>
+
+    <footer>
+      <div id="footerLeft">
+      
+      <%= image_tag("facebookicon.png", :class => "footerIcon") %>
+      <%= image_tag("reverbnationicon.png", :class => "footerIcon") %>
+      </div>
+      
+      <div id="footerRight">
+      <%= image_tag("githubicon.png", :class => "footerIcon") %>
+    </div>
+    </footer>
   </div>
 
 

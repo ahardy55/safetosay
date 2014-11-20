@@ -11,13 +11,9 @@ $primary-font-color: rgba(255, 255, 255, 0.88);
   width: 550px;
   color: $primary-font-color;
   float: left;
-  border: 1px solid black;
   padding: 25px;
   overflow-y: scroll;
 
-  .singleUpdate {
-    border-bottom: 1px dotted black;
-  }
 
   .date {
     font-size: $medium-font;

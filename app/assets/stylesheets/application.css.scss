@@ -63,6 +63,20 @@ footer {
   margin-top: 13px;
   margin-left: -35px;
   padding-top: 10px;
-  border: 1px solid white;
+  clear: both;
 
+  #footerLeft {
+    float: left;
+    padding-left: 50px;
+    letter-spacing: 30px;
+  }
+
+  #footerRight {
+    float: right;
+    padding-right: 50px;
+  }
+
+  .footerIcon {
+    height: 75px;
+  }
 }
