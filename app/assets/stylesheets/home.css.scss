@@ -4,10 +4,12 @@
 
 $medium-font: 20px;
 $small-font: 14px;
+$primary-font-color: rgba(255, 255, 255, 0.88);
 
 #newsUpdates {
   height: 570px;
   width: 550px;
+  color: $primary-font-color;
   float: left;
   border: 1px solid black;
   padding: 25px;
@@ -35,14 +37,14 @@ $small-font: 14px;
   margin-top: 25px;
   width: 466px;
   height: 150px;
-  color: white;
+  color: $primary-font-color;
   float: left;
   letter-spacing: 3px;
 
 
   #upcomingShow {
     font-size: 25px;
-    color: white;
+    color: $primary-font-color;
     margin: auto;
     margin-left: 35px;
     text-decoration: bold;
