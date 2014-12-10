@@ -4,7 +4,7 @@ class NewsUpdatesController < ApplicationController
   # GET /news_updates
   # GET /news_updates.json
   def index
-    @news_updates = NewsUpdate.all
+    @news_updates = NewsUpdate.all.paginate(page: params[:page], per_page: 5).order("created_at desc")
   end
 
   # GET /news_updates/1
