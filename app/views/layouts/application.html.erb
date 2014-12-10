@@ -17,9 +17,9 @@
     <nav>
       <%= link_to image_tag("news.png",    :class => "navLink"), news_updates_path %>
       <%= link_to image_tag("shows.png",   :class => "navLink"), shows_path %>
-      <%= image_tag("music.png",   :class => "navLink") %>
-      <%= image_tag("photos.png",  :class => "navLink-photos") %>
-      <%= image_tag("contact.png", :class => "navLink") %>
+      <%= link_to image_tag("music.png",   :class => "navLink"), musics_path %>
+      <%= link_to image_tag("photos.png",  :class => "navLink-photos"), photos_path %>
+      <%= link_to image_tag("contact.png", :class => "navLink"), contacts_path %>
     </nav>
   
     <div id="pageContent">
